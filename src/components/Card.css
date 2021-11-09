@@ -1,0 +1,23 @@
+.imgCard {
+  /* overflow: hidden; */
+  display: flex;
+  height: 150px;
+  transition: 0.4s all ease-in-out;
+}
+
+.card {
+  display: flex;
+  width: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+.card:hover img {
+  /* scale: 1.2; */
+  transform: scale(1.1);
+}
